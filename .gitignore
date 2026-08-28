@@ -1,0 +1,17 @@
+# Secrets et environnements locaux
+.env
+.env.*
+!.env.example
+!.env.qa.example
+.env.local
+.env.qa.local
+
+# Sessions QA contenant des secrets temporaires
+qa-sessions.json
+*.session.json
+
+# Artefacts de test et build
+dist/
+test-results/
+playwright-report/
+coverage/
